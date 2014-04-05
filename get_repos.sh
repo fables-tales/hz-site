@@ -14,3 +14,8 @@ git clone https://github.com/funandplausible/2048 ./selfie
 cd selfie
 git checkout selfie
 cd ..
+
+git clone https://github.com/funandplausible/2048 ./skrillex
+cd selfie
+git checkout bangarang
+cd ..
