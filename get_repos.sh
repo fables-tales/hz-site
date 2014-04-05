@@ -5,6 +5,7 @@ set -e
 rm -rf skrillex
 rm -rf selfie
 rm -rf echonest
+rm -rf goulding
 
 git clone https://github.com/funandplausible/2048 ./skrillex
 cd skrillex
@@ -19,4 +20,9 @@ cd ..
 git clone https://github.com/funandplausible/2048 ./echonest
 cd echonest
 git checkout echonest
+cd ..
+
+git clone https://github.com/funandplausible/2048 ./goulding
+cd goulding
+git checkout gracenote
 cd ..
