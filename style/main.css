@@ -79,8 +79,8 @@ opacity: 0; } }
         top: -50px;
 opacity: 0; } }
 .scores-container {
-    float: right;
-text-align: right; }
+ 
+ }
 
 .score-container, .best-container {
     position: relative;
@@ -404,7 +404,9 @@ box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255,
 box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 .tile.tile-8 .tile-inner {
     color: #f9f6f2;
-background: #f2b179; }
+    background-image:url('http://stupiddope.com/wp-content/uploads/2014/01/TheChainsmokers.Selfie_800px_stroke-740x740.jpg');
+    background-size:cover;
+}
 .tile.tile-16 .tile-inner {
     color: #f9f6f2;
 background: #f59563; }
@@ -413,10 +415,12 @@ background: #f59563; }
 background: #f67c5f; }
 .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-background: #f65e3b; }
+    background-image:url("http://24.media.tumblr.com/avatar_35f6576ba342_64.png");
+    background-size:cover; }
+
 .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
+    background-image:url("http://28.media.tumblr.com/tumblr_m11awyzeP51r3is9so1_500.jpg");
+    background-size:cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
 font-size: 45px; }
 @media screen and (max-width: 520px) {
