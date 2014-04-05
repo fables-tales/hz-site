@@ -4,6 +4,7 @@ set -e
 
 rm -rf skrillex
 rm -rf selfie
+rm -rf echonest
 
 git clone https://github.com/funandplausible/2048 ./skrillex
 cd skrillex
@@ -15,7 +16,7 @@ cd selfie
 git checkout selfie
 cd ..
 
-git clone https://github.com/funandplausible/2048 ./skrillex
-cd selfie
-git checkout bangarang
+git clone https://github.com/funandplausible/2048 ./echonest
+cd echonest
+git checkout echonest
 cd ..
